@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
-  </head>
-  <body class="page">
-    <header class="header decorated-zone">
-      <nav class="header__theme-menu">
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
@@ -26,12 +20,11 @@
       <div class="lamp-container">
         <span class="lamp-text">rec</span>
       </div>
-      <nav class="header__theme-menu" aria-label="Theme selection menu">
+      <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
-              aria-pressed="false"
             >
               День
             </button>
@@ -39,7 +32,6 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              aria-pressed="true"
               disabled
             >
               Авто
@@ -48,7 +40,6 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
-              aria-pressed="false"
             >
               Неон
             </button>
@@ -56,8 +47,8 @@
         </ul>
       </nav>
       <h1 class="title">no focus</h1>
-      <div class="header_section">
-        <h2 class="header_text text_block">
+      <div class="header_contneiner">
+        <h2 class="header_text text_width">
           <span> Что делать, когда не можешь делать ничего </span>
           <br />
           <span>
@@ -67,9 +58,6 @@
         </h2>
       </div>
     </header>
-    <!-- 
-      Main content area: Contains sections for reasons, concentration, and advice.
-    -->
     <main class="main">
       <section class="section section_reasons">
         <h2 class="title_section">Почему сосредоточиться так сложно</h2>

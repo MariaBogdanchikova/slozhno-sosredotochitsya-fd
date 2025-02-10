@@ -336,7 +336,7 @@
   .header__theme-menu {
     padding-right: 20px;
   }
-  .header_section{
+  .header_section {
     display: flex;
     justify-content: end;
     padding: 0 20px 10px 20px;
