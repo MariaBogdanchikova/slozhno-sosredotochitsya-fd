@@ -2,3 +2,23 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --img-bg-top: url(../images/cover-image-dark.png);
+  --clr-bg-main: #000028;
+  --clr-btn-main: rgba(255, 0, 112, 1);
+  --clr-btn-hover: rgba(255, 0, 112, 0.4);
+  --clr-accent-main: rgba(255, 0, 112, 1);
+  --clr-accent-heading: rgba(219, 0, 255, 1);
+  --font-size-header: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --clr-bg-text: rgba(255, 0, 112, 1);
+  --clr-header-text: rgba(0, 0, 40, 1);
+  --clr-section-heading: rgba(255, 0, 112, 1);
+  --clr-bg-card: rgba(255, 0, 112, 1);
+  --clr-card-text: rgba(0, 0, 40, 1);
+  --clr-section-text: rgba(241, 178, 206, 1);
+  --clr-theme-main: rgba(255, 0, 112, 1);
+  --clr-border-main: rgba(255, 0, 112, 1);
+  --clr-link-main: rgba(255, 0, 112, 1);
+  --display-rec: block;
+}
