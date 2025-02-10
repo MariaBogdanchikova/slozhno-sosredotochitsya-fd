@@ -45,7 +45,6 @@
   font-weight: 700;
   color: var(--clr-header-text);
   background-color: var(--clr-bg-text);
-  margin: 0;
 }
 
 
@@ -279,6 +278,9 @@
     justify-content: center;
     padding: 18px 0 0 21px;
   }
+  .text_width {
+    width: 50vw;
+  }
   .header {
     align-items: normal;
   }
@@ -302,6 +304,7 @@
   .section_title_concentration {
     grid-template-columns: minmax(min-content, 1fr);
   }
+ 
 }
 
 @media (min-width: 768px) {
