@@ -274,19 +274,6 @@
 }
 
 @media (min-width: 1024px) {
-  .main {
-    padding: 0 20;
-  }
-  .section_advice {
-    gap: 11px;
-  }
-  .section_reasons {
-    gap: 11px;
-  }
-  .section_title_concentration {
-    grid-template-columns: minmax(min-content, 1fr);
-  }
-
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
@@ -302,6 +289,18 @@
   .card_list_concentration {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .main {
+    padding: 0 20;
+  }
+  .section_advice {
+    gap: 11px;
+  }
+  .section_reasons {
+    gap: 11px;
+  }
+  .section_title_concentration {
+    grid-template-columns: minmax(min-content, 1fr);
   }
 }
 
