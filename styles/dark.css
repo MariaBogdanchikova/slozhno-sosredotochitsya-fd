@@ -13,7 +13,7 @@
   --clr-bg-main: #000028;
   --clr-btn-main: rgba(255, 0, 112, 1);
   --clr-btn-hover: rgba(255, 0, 112, 0.4);
-  --clr-accent-main: rgba(255, 0, 112, 1);
+  --clr-accent-main: #FF8DCB;
   --clr-accent-heading: rgba(219, 0, 255, 1);
   --font-size-header: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --clr-bg-text: rgba(255, 0, 112, 1);
