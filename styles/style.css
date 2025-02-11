@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--gap-size, 40px);
-  font-family: "IBM Plex mono", serif, monospace;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -299,7 +298,7 @@
     gap: 11px;
   }
   .section_title_concentration {
-    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-columns: minmax(max-content, 1fr);
   }
   .text_width {
     inline-size: 50vw;
@@ -373,7 +372,6 @@
     grid-column: span 2;
   }
   .section_title_concentration {
-    display: grid;
     grid-template-columns: min-content;
   }
   .section_advice {
