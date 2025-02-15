@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="header custom-area">
-      <div class="lamp-container">
+      <div class="lamp-container" aria-hidden = "true">
         <span class="lamp-text">rec</span>
       </div>
       <nav class="header__theme-menu">
@@ -49,12 +49,10 @@
       <h1 class="title">no focus</h1>
       <div class="header_section">
         <h2 class="header_text text_width">
-          <span> Что делать, когда не можешь делать ничего </span>
+           Что делать, когда не можешь делать ничего 
           <br />
-          <span>
             Или почему нам так сложно сконцентрироваться, особенно когда очень
             надо
-          </span>
         </h2>
       </div>
     </header>
@@ -69,7 +67,7 @@
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
-              <a href="#0" class="link_decorate text_link">выяснили</a>, что
+              <a href="#0" class="link_decorate text_link" target="_blank">выяснили</a>, что
               мозгу тяжело концентрироваться даже на двух делах одновременно. А
               когда в поле внимания попадает несколько важных задач, организм
               паникует и выделяет кортизол и адреналин — «гормоны стресса».
@@ -205,15 +203,32 @@
             class="landscape image"
             src="images/sunset.png"
             alt="пейзаж моря на закате"
+            loading="lazy"
           />
           <img
             class="ice_cream image"
             src="images/ice-cream.png"
             alt="мороженное пирожное"
+            loading="lazy"
           />
-          <img class="cassette image" src="images/tape.png" alt="касета" />
-          <img class="books image" src="images/books.png" alt="книги" />
-          <img class="street image" src="images/street.png" alt="улица" />
+          <img
+            class="cassette image" 
+            src="images/tape.png"
+            alt="касета"
+            loading="lazy" 
+          />
+          <img
+            class="books image"
+            src="images/books.png"
+            alt="книги"
+            loading="lazy"
+          />
+          <img
+            class="street image"
+            src="images/street.png"
+            alt="улица"
+            loading="lazy"
+          />
         </div>
       </section>
     </main>
